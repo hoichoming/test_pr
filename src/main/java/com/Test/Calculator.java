@@ -1,3 +1,4 @@
+package src.main.java.com.Test;
 import java.util.Scanner;
 
 public class Calculator {
