@@ -1,0 +1,8 @@
+pandas
+numpy
+pytest
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+spacy
+en-core-web-md==3.7.1
