@@ -1,4 +1,4 @@
-package src.main.java.com.Test;
+package src.main.java.com.main;
 public class HelloWorld {
     public static void main(String[] args) {
         // Print Hello, World! to the console
