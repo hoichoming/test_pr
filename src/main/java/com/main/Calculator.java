@@ -1,4 +1,4 @@
-package src.main.java.com.Test;
+package src.main.java.com.main;
 import java.util.Scanner;
 
 public class Calculator {
