@@ -9,15 +9,15 @@ permissions:
     contents: read
     security-events: write 
 
-jobs:
-  build:
-    name: Analyze with CodeGuru Reviewer
-    runs-on: ubuntu-latest
-    steps:
-    - name: Configure AWS credentials
-      id: iam-role
-      continue-on-error: true
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        role-to-assume: arn:aws:iam::100891134047:role/aws_codeguru_role
-        aws-region: us-west-2
+# jobs:
+#   build:
+#     name: Analyze with CodeGuru Reviewer
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Configure AWS credentials
+#       id: iam-role
+#       continue-on-error: true
+#       uses: aws-actions/configure-aws-credentials@v1
+#       with:
+#         role-to-assume: arn:aws:iam::100891134047:role/aws_codeguru_role
+#         aws-region: us-west-2
